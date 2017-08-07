@@ -10,7 +10,7 @@ import random
 import string
 
 def mock_tweet():
-    """Generate some random tweet text."""
+    """Generate some random tweet text with API KEY"""
     count = random.randint(70, 140)
     return ''.join([random.choice(string.ascii_letters) for _ in range(count)])
 
